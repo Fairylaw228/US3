@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:demka"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" MaxWidth="800" MinWidth="800" MaxHeight="700" MinHeight="700" Height="700" Width="800" WindowStyle="None" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Label Margin="311,64,335,574" FontFamily="Sitka Subheading" FontSize="20" HorizontalAlignment="Center" Width="146">Авторизация</Label>
+        <TextBox Name="LoginBox" Margin="210,208,273,453" RenderTransformOrigin="0.5,0.5" Width="309" HorizontalAlignment="Center">
+
+
+        </TextBox>
+        <PasswordBox Name="PasswordBox" Margin="211,262,273,399" RenderTransformOrigin="0.5,0.5" Width="308" HorizontalAlignment="Center">
+
+
+
+        </PasswordBox>
+        <Button Content="Войти" HorizontalAlignment="Left" Margin="210,336,0,0" VerticalAlignment="Top" Width="114" Height="41" Click="Button_Click_1"/>
+        <Button Content="Гость" HorizontalAlignment="Left" Margin="404,336,0,0" VerticalAlignment="Top" Width="114" Height="41" Click="Button_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="674,64,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
     </Grid>
 </Window>
